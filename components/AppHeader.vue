@@ -6,11 +6,11 @@ const links = [
   },
   {
     label: "Commands",
-    to: "/docs/commands",
+    to: "/docs",
   },
   {
     label: "Dashboard",
-    to: "https://dashboard.zilobot.xyz",
+    to: "/dashboard",
   },
 ];
 </script>

@@ -8,7 +8,7 @@
       :card="false"
       :links="[
         { label: 'Invite the bot now!', size: 'xl', to: 'https://discord.com/oauth2/authorize?client_id=767143692230197278&permissions=1513962695871&scope=bot%20applications.commands', target: '_blank' },
-        { label: 'Join the Support Server', size: 'xl', variant: 'outline', color: 'blurple', to: 'https://discord.com/invite/EsGUFcn7RP', target: '_blank' },
+        { label: 'Join the Support Server', size: 'xl', variant: 'outline', color: 'blurple', to: 'https://discord.gg/bZBQQa63D6', target: '_blank' },
       ]"
       class="!min-h-2"
     />
