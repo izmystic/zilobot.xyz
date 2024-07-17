@@ -13,7 +13,15 @@ const links = [
     to: "/dashboard",
   },
 ];
+
+const id = "ziloBanner";
+const hideBanner = () => {
+  localStorage.setItem(id, "true");
+
+  document.querySelector("html")?.classList.add("hide-banner");
+};
 </script>
+
 <template>
   <div class="relative bg-primary transition-[background] backdrop-blur z-50 app-banner">
     <UContainer class="py-2">
@@ -39,3 +47,9 @@ const links = [
     </template>
   </UHeader>
 </template>
+
+<style scoped>
+.hide-banner .app-banner {
+  display: none;
+}
+</style>
