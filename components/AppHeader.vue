@@ -28,7 +28,7 @@ const hideBanner = () => {
       <div class="flex items-center justify-between gap-2">
         <div class="lg:flex-1 hidden lg:flex items-center" />
 
-        <p class="text-sm font-semibold text-white dark:text-gray-900">Zilo is currently being rewritten in typescript, expect some downtime.</p>
+        <p class="text-sm font-semibold text-white dark:text-gray-900">Zilo is currently being rewritten, expect some downtime.</p>
 
         <div class="flex items-center justify-end lg:flex-1">
           <button class="p-1.5 rounded-md inline-flex hover:bg-primary/90" aria-label="Close banner" @click.prevent="hideBanner">
