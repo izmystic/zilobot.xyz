@@ -1,25 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  extends: ["@nuxt/ui-pro"],
-  modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/image", "nuxt-aos", "@nuxtjs/google-fonts"],
+  modules: ["@nuxt/ui-pro", "@nuxt/content", "@nuxt/eslint", "@nuxt/image", "nuxt-aos"],
+
+  css: ["@/assets/css/main.css"],
+
   ui: {
-    icons: ["heroicons", "simple-icons"],
-  },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+    theme: {
+      colors: ["primary", "secondary", "tertiary", "info", "success", "warning", "error", "blurple"],
     },
   },
-  googleFonts: {
-    preload: true,
-    families: {
-        Montserrat: true
-    }
+
+  colorMode: {
+    preference: "dark",
   },
-  aos: {
-    disable: "mobile",
+
+  future: {
+    compatibilityVersion: 4,
   },
-  devtools: { enabled: false },
-  typescript: { strict: true },
+
+  devtools: { enabled: true },
+  typescript: { strict: false },
+  compatibilityDate: "2025-03-21",
 });
